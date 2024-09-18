@@ -11,7 +11,7 @@
         "api-documentation"
     ],
     "scripts": {
-        "build": "your-build-command --output public",
+        "build": "turbo run build",
         "build-force": "pnpm clean && turbo run build --force",
         "dev": "turbo run dev --parallel",
         "start": "run-script-os",
@@ -64,7 +64,7 @@
     },
     "engines": {
         "node": ">=18.15.0 <19.0.0 || ^20",
-        "pnpm": "^7.5"
+        "pnpm": "^7.55"
     },
     "resolutions": {
         "@qdrant/openapi-typescript-fetch": "1.2.6",
